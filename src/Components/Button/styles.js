@@ -7,6 +7,7 @@ export const EightBitButton = styled.div`
   text-align: center;
   font-size: 30px;
   padding: 20px;
+  margin: 0 auto;
   font-family: "Press Start 2P", cursive;
   text-decoration: none;
   color: white;

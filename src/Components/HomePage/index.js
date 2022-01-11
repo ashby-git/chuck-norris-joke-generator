@@ -46,11 +46,16 @@ const HomePage = () => {
   }
 
   return (
-    <>
-      <S.Title>chuck norris joke generator</S.Title>
-      <Card>{content}</Card>
-      <Button onClick={fetchJokeHandler}>Generate New Joke</Button>
-    </>
+    <S.Background>
+      <S.LandingPageContainer>
+        <S.Title>chuck norris joke generator</S.Title>
+        <S.CardContainer>
+          <S.ChuckImg />
+          <Card>{content}</Card>
+        </S.CardContainer>
+        <Button onClick={fetchJokeHandler}>Generate New Joke</Button>
+      </S.LandingPageContainer>
+    </S.Background>
   );
 };
 
