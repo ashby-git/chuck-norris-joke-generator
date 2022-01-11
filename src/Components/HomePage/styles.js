@@ -9,5 +9,5 @@ export const Title = styled.h1`
 export const JokeText = styled.p`
   font-family: "VT323", monospace;
   font-size: 2rem;
-  color: white;
+  color: ${(props) => (props.invalid ? "red" : "white")};
 `;
