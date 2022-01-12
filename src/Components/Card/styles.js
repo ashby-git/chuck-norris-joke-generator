@@ -6,13 +6,16 @@ export const Card = styled.div`
   border-radius: 14px;
   background-color: black;
   opacity: 0.8;
-
   min-height: 40vh;
-  /* max-width: 60vw; */
   width: 60vw;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   display: grid;
   line-height: 3rem;
+
+  @media (max-width: 800px) {
+    width: 80vw;
+    line-height: 2.75rem;
+  }
 `;

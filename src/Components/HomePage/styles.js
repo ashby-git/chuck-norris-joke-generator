@@ -21,17 +21,19 @@ export const LandingPageContainer = styled.div`
 
 export const CardContainer = styled.div`
   position: relative;
-  margin: 0 2em 3em 2em;
+  margin: 0 auto 3em auto;
+  width: max-content;
 `;
 
 export const ChuckImg = styled.img.attrs({
   src: `${chuckImg}`,
 })`
   position: absolute;
-  margin: -100px 0 0 90%;
+  margin: -116px 0 0 93%;
   z-index: 2;
 
-  @media (max-width: 950px) {
+  @media (max-width: 800px) {
+    display: none;
   }
 `;
 
@@ -40,7 +42,14 @@ export const Title = styled.h1`
   font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center;
-  margin: 1em 0 1em 0;
+  height: 30vh;
+  display: grid;
+  align-items: center;
+  z-index: 3;
+
+  @media (max-width: 450px) {
+    font-size: 2.3rem;
+  }
 `;
 
 export const JokeText = styled.p`

@@ -46,4 +46,8 @@ export const EightBitButton = styled.div`
     border-left: 6px black solid;
     border-right: 6px black solid;
   }
+
+  @media (max-width: 450px) {
+    width: 300px;
+  }
 `;
