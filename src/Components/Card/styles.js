@@ -6,7 +6,8 @@ export const Card = styled.div`
   border-radius: 14px;
   background-color: black;
   opacity: 0.8;
-  min-height: 40vh;
+  height: 40vh;
+  overflow: scroll;
   width: 60vw;
   margin: 0 auto;
   justify-content: center;
