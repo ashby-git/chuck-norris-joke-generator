@@ -31,7 +31,7 @@ const HomePage = () => {
     fetchJokeHandler();
   }, [fetchJokeHandler]);
 
-  let content = <S.JokeText>Found no movies.</S.JokeText>;
+  let content = <S.JokeText>Found no Jokes.</S.JokeText>;
 
   if (joke.length > 0) {
     content = <S.JokeText>{joke}</S.JokeText>;
